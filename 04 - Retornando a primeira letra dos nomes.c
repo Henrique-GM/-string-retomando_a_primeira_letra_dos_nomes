@@ -10,14 +10,14 @@ int main (void)
 	
 	setlocale (LC_ALL, "portuguese") ;
 
-	printf ("\n Digite um nome....: ") ;
-	fgets (nome, 10, stdin) ;
+	printf ("\n Digite uma palavra....: ") ;
+	fgets (nome, 20, stdin) ;
 
 	printf ("\n") ;
 	
 	strncpy(letra, nome, 4) ;
 
-  printf ("\n Só 4 letras = %s", letra) ;
+  printf ("\n SÃ³ 4 letras = %s", letra) ;
 
 	return 0 ;
 	system ("pasuse") ;
